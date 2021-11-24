@@ -1,9 +1,0 @@
-.book-item {
-  display: flex;
-  flex-direction: row;
-  margin-top: 5px;
-}
-
-.book-item button {
-  margin-left: 10px;
-}

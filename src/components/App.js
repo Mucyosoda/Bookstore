@@ -1,32 +1,22 @@
-import {
-  BrowserRouter as Router, Switch, Route, Link,
-} from 'react-router-dom';
-import Books from './books';
-import Categories from './categories';
-import './App.css';
+import React from 'react';
+import { BrowserRouter as Router, Route, Switch } from 'react-router-dom';
+import Booksec from './Homepage';
+import Categoriessec from '../Redux/categories/categories';
+import LinkPage from './Links';
 
-function App() {
-  return (
+const App = () => (
+  <>
     <Router>
-      <div id="navlinks">
-        <div className="nav-link">
-          <Link to="/">Books</Link>
-        </div>
-        <div className="nav-link">
-          <Link to="/categories">Categories</Link>
-        </div>
-      </div>
-
+      <LinkPage />
       <Switch>
         <Route exact path="/">
-          <Books />
+          <Booksec />
         </Route>
-        <Route path="/categories">
-          <Categories />
+        <Route exact path="/categories">
+          <Categoriessec />
         </Route>
       </Switch>
     </Router>
-  );
-}
-
+  </>
+);
 export default App;
