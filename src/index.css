@@ -4,12 +4,15 @@ body {
 
 .nav-link {
   font-size: 22px;
-  margin-left: 20px;
   text-align: center;
 }
 
-#navlinks {
+ul {
   display: flex;
   flex-direction: row;
-  justify-content: center;
+  justify-content: space-evenly;
+}
+
+li {
+  list-style: none;
 }
