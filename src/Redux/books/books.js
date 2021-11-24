@@ -1,14 +1,24 @@
-import React from 'react';
+export const initialState = [];
 
-const Booksec = () => (
-  <>
-    <div className="books-container d-flex">
-      <h2>Book List</h2>
-      <button type="button">REMOVE</button>
-    </div>
-    <input type="text" name="addBooks" placeholder="Enter Book Title" />
-    <button type="button">Add Book</button>
-  </>
-);
+export const addBook = (payload) => ({
+  type: 'ADD_BOOK',
+  payload,
+});
+export const removeBook = (payload) => ({
+  type: 'REMOVE_BOOK',
+  payload,
+});
 
-export default Booksec;
+const reducer = (state = initialState, action) => {
+  switch (action.type) {
+    case 'ADD_BOOK':
+      return [...state, action.payload];
+    case 'REMOVE_BOOK':
+      return state.filter((item) => item.id !== action.payload.id);
+
+    default:
+      return state;
+  }
+};
+
+export default reducer;
