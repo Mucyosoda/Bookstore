@@ -5,7 +5,7 @@
 > Bookstore CMS is an API based webapp that can do different functions like Displays books, Add books, Remove books that containing information (like their book's title, book's author, and progress information). This is a single-page application(SPA). The project is still underconstruction.
 > ![screenshot](./appscreenshoot.PNG)
 
-> [Live preview](https://loving-allen-91bd80.netlify.app/)
+> [Live preview](https://zen-golick-fff47e.netlify.app/)
 
 Additional description about the project and its features.
 
