@@ -1,6 +1,30 @@
 # Getting Started with Create React App
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+# BOOKSTORE CMS
+
+> Bookstore CMS is an API based webapp that can do different functions like Displays books, Add books, Remove books that containing information (like their book's title, book's author, and progress information). This is a single-page application(SPA). The project is still underconstruction.
+> ![screenshot](./appscreenshoot.PNG)
+
+> [Live preview](https://zen-golick-fff47e.netlify.app/)
+
+Additional description about the project and its features.
+
+- Cards are display dynamically
+- After make any changes they are sent to the API
+- When you reload a page, it updates by getting back the API information
+
+## Built With
+
+- ![](https://img.shields.io/badge/React-blue)
+- ![](https://img.shields.io/badge/Redux-green)
+- ![](https://img.shields.io/badge/Github-blueviolet)
+- ![](https://img.shields.io/badge/Javascript-blue)
+- ![](https://img.shields.io/badge/HTML-purple)
+- ![](https://img.shields.io/badge/CSS-blue)
+- ![](https://img.shields.io/badge/WEBPACK-violet)
+- ![](https://img.shields.io/badge/Barbel-violet)
+- ![](https://img.shields.io/badge/API-violet)
+- ![](https://img.shields.io/badge/JSON-violet)
 
 ## Available Scripts
 
