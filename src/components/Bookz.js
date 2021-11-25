@@ -14,7 +14,7 @@ const Differentbooks = (prop) => {
         <ul className="gotteninfo">
           <li className="catinput">{category}</li>
           <li className="titinput">{title}</li>
-          <p className="myname">Author: Mucyo soda</p>
+          <p className="myname">Mucyo soda</p>
         </ul>
         <div className="lower-remove ">
           <button className="removebtn" type="button">Comments</button>
